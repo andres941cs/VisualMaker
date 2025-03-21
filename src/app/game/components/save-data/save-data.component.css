@@ -1,0 +1,29 @@
+.save__data
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.data
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    height: 60px;
+    width: 120px;
+}
+
+.date{ font-size: 0.9rem; }
+p{color: #ccc;}
+
+@media (max-width: 1024px) and (orientation: landscape) {
+    .data{
+    padding: 16px;
+    }
+}

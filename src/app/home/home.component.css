@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Righteous&display=swap');
+
+.page__home{
+    background: #212121;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 66px;
+    background-color: rgb(255 255 255 / 10%);
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.35);
+}
+.nav__login, .nav__logout,.nav__dashboard {
+    background: #ffcf0d;
+    height: 66px;
+    padding-inline: 1rem;
+    cursor: pointer;
+}
+
+a{
+    color: rgb(1, 10, 39);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+}
+.ul {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 146px;
+    width: 100%;
+    list-style-type: none;
+}
+
+/* PERSONALIZACION */
+h1{color: #ffcf0d;font-family: "Orbitron", sans-serif; margin: 1rem 0 0.75rem 0;}
+p,li{color: #ffff;font-family: "Orbitron", sans-serif;}
+h2{color: #ffff;font-family: "Orbitron", sans-serif; margin: 0.5rem 0 0.25rem 0;}
+
+/* DESKTOP */
+@media (min-width: 768px) {
+    .main{
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;
+        height: 100%;
+    }
+
+    .main__center
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+    }
+  }

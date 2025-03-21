@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.content{
+    width: 100vw;
+    height: 100vh;
+    background: #212121;
+}
+h1{
+    padding: 1rem 2rem;
+    color: #ffcf0d;
+    font-family: 'Open Sans';
+}
+
+.button__panel{
+    display: flex;
+    gap: 0.25rem;
+    margin: 0 2rem 0.5rem;
+}
+button{
+    display: flex;
+    align-items: center;
+    padding: 0.25rem;
+    cursor: pointer;
+    color:#68FF8E;
+    background-color: transparent;
+    border: #68FF8E 1px solid;
+}
+button:hover{
+ opacity: 0.9;
+}
+input{
+    background-color: transparent;
+    border: #68FF8E 1px solid;
+    color: #fff;
+    font-family: 'Open Sans';
+    padding-inline: 0.5rem;
+}

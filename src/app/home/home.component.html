@@ -1,0 +1,34 @@
+<div class="page__home">
+    <nav>
+        @if (!isLogin) {
+            <a class="nav__login" href="login">Iniciar sesión</a>
+        } @else {
+            <a class="nav__dashboard" href="dashboard">Dashboard</a>
+            <a class="nav__logout" (click)="logout()">Cerrar sesión</a>
+        }
+    </nav>
+        <!-- ESTRUCTURA -->
+        <div class="main">
+            <div class="main__left">
+        
+            </div>
+
+            <div class="main__center">
+                <h1>¡Crea novelas visuales interactivas!</h1>
+                    <p>¿Sueñas con dar vida a tus historias? Nuestra intuitiva aplicación te permite crear novelas visuales personalizadas, con personajes memorables, escenarios envolventes y tramas que atraparán a tus lectores.</p>
+                <h2>Características destacadas</h2>
+                <ul>
+                    <li><b>Interfaz visual e intuitiva:</b> Arrastra y suelta elementos, edita diálogos y gestiona la narrativa sin necesidad de conocimientos técnicos.</li>
+                    <li><b>Personalización total:</b> Define el aspecto de tus personajes, fondos y elementos visuales. ¡Tu novela visual será única!</li>
+                    <li><b>Gestión sencilla de recursos:</b> Importa imágenes, música y efectos de sonido para enriquecer la experiencia de tus lectores.</li>
+                    <li><b>Publica y comparte:</b> Exporta tu novela visual a diferentes formatos y plataformas para que tus lectores puedan disfrutarla donde quieran.</li>
+                    <li><b>Ramificaciones narrativas:</b> Crea múltiples opciones y finales para que tus lectores exploren diferentes caminos y descubran todos los secretos de tu historia.</li>
+                </ul>
+            </div>
+        
+            <div class="main__rigth">
+        
+            </div>
+        </div>
+                
+</div>

@@ -1,0 +1,10 @@
+<div class="logs">
+    @for (d of data;track $index;) {
+        <div class="dialogue">
+            <div class="character">{{ d.name }}</div>
+            <div class="text">{{ d.text }}</div>
+        </div>
+    } @empty {
+        <li>There are no dialogues.</li>
+    }     
+</div>

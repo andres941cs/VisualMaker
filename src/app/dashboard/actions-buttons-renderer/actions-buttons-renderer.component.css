@@ -1,0 +1,13 @@
+.cell__buttons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    height: 100%;
+}
+
+.cell__buttons button
+{
+    color: #ffcf0d;
+}

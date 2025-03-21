@@ -1,0 +1,15 @@
+<div class="save__data">
+    @for (d of data;track $index;) {
+        <div class="data" (click)="saveData(d)">
+            @if (d){
+                <img src="" alt="">
+                <span class="date">{{d.savedAt | date:'short'}}</span>
+            }@else{
+                <p>Empty</p>
+            }
+            
+        </div>
+    } @empty {
+        <li>There are no dialogues.</li>
+    }
+</div>

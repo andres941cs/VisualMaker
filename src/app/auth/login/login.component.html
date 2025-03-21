@@ -1,0 +1,12 @@
+<div class="page-login">
+    <form class="container-login" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+        <h1>Visual Maker</h1>
+        <input type="text" formControlName="email" placeholder="Emai / Username">
+        <input type="password" formControlName="password" placeholder="Password">
+        <ul>
+            <li><a href="register">Register Now</a></li>
+            <li><a href="">You forgot your password?</a></li>
+        </ul>
+        <button type="submit">Login</button>
+    </form>
+</div>

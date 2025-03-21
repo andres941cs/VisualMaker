@@ -1,0 +1,10 @@
+<div class="page-register">
+    <!-- ASIGNAR EL OBJETO FORMULARIO [formGroup]="nombreFormulario" ASIGNAR EL EVENTO (ngSubmit)="onSubmit()" -->
+    <form class="container-register" [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+        <h1>Visual Maker</h1>
+        <input type="text" formControlName="email" placeholder="Emai / Username">
+        <input type="password" formControlName="password" placeholder="Password">
+        <input type="password" formControlName="confirmPassword" placeholder="Confirm Password">
+        <button type="submit">Register</button>
+    </form>
+</div>

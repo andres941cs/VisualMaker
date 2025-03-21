@@ -1,0 +1,12 @@
+<div class="load__data">
+    @for (d of data;track $index;) {
+        <div class="data" (click)="loadData(d)">
+            @if (d){
+                <img src="" alt="">
+                <span class="date">{{d.savedAt | date:'short'}}</span>
+            }@else{
+                <p>Empty</p>
+            }
+        </div>
+    }
+</div>

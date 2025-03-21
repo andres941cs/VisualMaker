@@ -1,0 +1,14 @@
+<div class="page-game-edit">
+    <form class="container-game" [formGroup]="gameForm" (ngSubmit)="onSubmit()">
+        <h1>{{title}}</h1>
+        <input type="text" formControlName="name" placeholder="Nombre">
+        <input type="text" formControlName="author" placeholder="Autor">
+        <input type="text" formControlName="release_date" placeholder="Fecha de lanzamiento">
+        <input type="number" formControlName="price" placeholder="Precio">
+        <input type="file" formControlName="data" (change)="onFileSelected($event)" accept=".json, application/json">
+        <ul>
+            <li><a href="dashboard">Volver</a></li>
+        </ul>
+        <button type="submit">Editar Juego</button>
+    </form>
+</div>
