@@ -1,27 +1,67 @@
-# VisualMaker
+# 🧩 VisualMaker
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.8.
+Aplicación web desarrollada con **Angular 18** que permite **crear visual novels a partir de un archivo JSON**. Define la historia, los personajes y las escenas en un JSON y VisualMaker se encarga de convertirlo en una novela visual interactiva.
 
-## Development server
+## ✨ Características
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- 📖 Creación de visual novels a partir de un archivo JSON.
+- 🎭 Definición de escenas, personajes y diálogos de forma declarativa.
+- 📊 Tablas de datos interactivas y personalizables con AG Grid.
+- 📝 Formularios con Angular Forms.
+- 🧭 Navegación entre vistas con Angular Router.
+- 🎞️ Animaciones con Angular Animations.
+- 🧪 Tests unitarios con Karma y Jasmine.
 
-## Code scaffolding
+## 🛠️ Tecnologías
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+| Categoría | Herramientas |
+| --- | --- |
+| Framework | Angular 18 |
+| Lenguaje | TypeScript |
+| Tablas de datos | AG Grid (ag-grid-angular) |
+| Programación reactiva | RxJS |
+| Testing | Karma, Jasmine |
+| CLI | Angular CLI |
 
-## Build
+## 📋 Requisitos previos
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- [Node.js](https://nodejs.org/) 18.19 o superior
+- npm (incluido con Node.js)
+- [Angular CLI](https://angular.dev/tools/cli) (opcional, también puedes usar `npx ng`)
 
-## Running unit tests
+```bash
+npm install -g @angular/cli
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🚀 Instalación
 
-## Running end-to-end tests
+```bash
+# 1. Clonar el repositorio
+git clone https://github.com/andres941cs/VisualMaker.git
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+# 2. Entrar en el proyecto
+cd VisualMaker
 
-## Further help
+# 3. Instalar dependencias
+npm install
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## ▶️ Uso
+
+```bash
+# Servidor de desarrollo (http://localhost:4200)
+npm start
+
+# Compilar para producción (salida en dist/)
+npm run build
+
+# Compilar en modo watch
+npm run watch
+
+# Ejecutar los tests unitarios
+npm test
+```
+
+## 👤 Autor
+
+**andres941cs** · [GitHub](https://github.com/andres941cs)
